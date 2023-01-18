@@ -21,7 +21,7 @@ body {
 .wrapper {
     width:100%;
     background-size: cover;
-    background-image: url("../img/background-pagePay.jpg");
+    background-image: url("../img/background-pagePay2.jpg");
     background-position: center;
     height:100vh;
     &-black {
@@ -52,32 +52,52 @@ body {
             width:100%;
             display:flex;
             flex-direction:column;
-            gap:10px;
+            align-items: center;
             margin-bottom:35px;
+            // gap:10px;
             // border:2px solid black;
             h1 {
-                font-family: 'Poppins', sans-serif;
+                font-family: 'Work Sans', sans-serif;
                 font-size:64px;
-                font-weight:700;
+                font-weight:200;
                 line-height: 72px;
+                text-align: center;
+                margin-bottom: 0px;
+            }
+            h6 {
+                font-family: 'Work Sans', sans-serif;
+                font-size:32px;
+                font-weight:200;
+                text-align: center;
+                margin-bottom: 30px;
             }
             p {
                 font-family: 'Poppins', sans-serif;
                 font-size:24px;
                 font-weight:500;
+                text-align: center;
+                margin-bottom: 30px;
             }
             a {
                 text-decoration:none;
                 font-family: 'Poppins', sans-serif;
-                font-size:22px;
-                font-weight:700;
-                width:180px;
-                height:40px;
+                font-size:42px;
+                font-weight:730;
+                width:210px;
+                // height:50px;
                 border-radius:8px;
                 border:0px;
                 background-color:	rgb(233,198,192);
                 text-align:center;
                 color:rgb(8, 0, 0);
+                margin-bottom: 10px;
+            }
+            span {
+                font-family: 'Work Sans', sans-serif;
+                font-size:34px;
+                font-weight:200;
+                text-align: center;
+                margin-bottom: 30px;
             }
             @include bp435 {
                 h1 {
@@ -104,11 +124,17 @@ body {
             width:100%;
             display:flex;
             flex-direction:column;
+            align-items: center;
+            // border:1px solid black;
             &-item {
                 position:relative;
                 width:100%;
                 padding-left:60px;
                 margin-bottom:20px;
+                max-width:375px;
+                // border:1px solid black;
+                margin-left: 100px;
+                text-align: center;
                 h3 {
                     font-family: 'Poppins', sans-serif;
                     font-size:24px;
